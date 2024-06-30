@@ -1,0 +1,8 @@
+name: rosalind
+channels:
+  - defaults
+dependencies:
+  - pip=22.3.1
+  - python=3.10.12
+  - pip:
+    - -r requirements.txt
